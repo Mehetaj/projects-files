@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="container mx-auto">
+    <header class="mt-8">
+        <div>
+            <h1 class="text-center text-4xl font-bold">Welcome to My <span class="text-red-500">Resturant</span></h1>
+        </div>
+        <div class="navbar mt-4 bg-base-100">
+            <div class="gap-2 mx-auto">
+              <div class=" flex justify-center">
+                <div>
+                    <input id="search-field" type="text" placeholder="Search" class="input input-bordered w-96" />
+                </div>
+                <div>
+                    <button class="btn">Search</button>
+                </div>
+                
+              </div>
+             
+            </div>
+          </div>
+    </header>
+
+    <main class="mt-12">
+        <section class="grid grid-cols-3 gap-3" id="meals-container">
+            
+        </section>
+
+        <section>
+            <!-- <label for="my-modal-3" class="btn">open modal</label> -->
+
+
+<input type="checkbox" id="my-modal-3" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box relative">
+
+    <div id="modal-container">
+
+    </div>
+    <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+    <!-- <h3 class="text-lg font-bold">Congratulations random Internet user!</h3>
+    <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p> -->
+  </div>
+</div>
+        </section>
+
+    </main>
+    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js"></script>
+</body>
+</html>

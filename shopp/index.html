@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            margin: 10px;
+        }
+        button{
+            margin: 10px;
+        }
+        main{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <input placeholder="product" id="product-name" type="text"> <br>
+            <input placeholder="quantity" id="product-quantity" type="text"> <br>
+            <button onclick="addProduct()">Add Product</button>
+        </div>
+        <div>
+            <ol id="product-container">
+
+            </ol>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

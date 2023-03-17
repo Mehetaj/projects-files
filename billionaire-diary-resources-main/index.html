@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billonare</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body class="bg-gray-200 h-full mt-20 container-fluid p-12">
+    <main>
+        <section class="container mx-auto">
+            <div class="grid grid-cols-2">
+                <div class="bg-blue-900 w-96 p-8">
+                   <img class="block w-48 ml-14 mt-4" src="images/logo/logo.png" alt="">
+                <button class="block btn btn-warning w-80 mt-4">Add a user <br> (Randomly)</button>
+                <button class="block btn btn-warning w-80 mt-4">Double Money</button>
+                <button class="block btn btn-warning w-80 mt-4">Sort By Rank <br>(Decending)</button>
+                <button class="block btn btn-warning w-80  mt-4">Calculate Entire Wealth</button>
+                   <img class="block w-80 mt-4" src="images/icons/divider.png" alt="">
+                <button class="block btn btn-danger w-80 mt-4">Show All Billionaires</button>
+                <button class="block btn btn-danger w-80 mt-4">Richest By Industry</button>
+                <button class="block btn btn-danger w-80 mt-4">Richest By States</button>
+                </div>
+
+                <div>
+                    <!-- navber section -->
+                    <div class="navbar bg-base-100 flex justify-between mb-2">
+                        <div class="form-control">
+                            <input type="text" placeholder="Search" class="input input-bordered" />
+                          </div>
+                        
+                        <div class="flex-none gap-2">
+                         
+                          <div class="">
+                            <label tabindex="0" class="btn btn-ghost">
+                              <div class="w-10 rounded-full">
+                                <img src="./images/logo/logo1.png" />
+                              </div>
+                            </label>
+                            
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="mt-8">
+                            <h2 class="text-2xl font-medium">Hello Users</h2>
+                          </div>
+                      
+                          <div class="grid grid-cols-5 mt-12 ">
+                            <h2 class="text-2xl">Person</h2>
+                            <h2 class="text-2xl">Citizenship</h2>
+                            <h2 class="text-2xl">Industry</h2>
+                            <h2 class="text-2xl">Rank</h2>
+                            <h2 class="text-2xl">Wealth</h2>
+                          </div> <hr>
+
+                          <div class="grid grid-cols-5 mt-4">
+                            <div class="text-xl">
+                                <h3>Jeff Bezos</h3>
+                                <h3>sergey-brin</h3>
+                                <h3>Murat Vargi</h3>
+                            </div>
+                            <div class="text-xl">
+                                <h3>United States</h3>
+                                <h3>United States</h3>
+                                <h3>Turkey</h3>
+                            </div>
+                            <div class="text-xl">
+                                <h3>Technology</h3>
+                                <h3>Technology</h3>
+                                <h3>Telecom</h3>
+                            </div>
+                            <div class="text-xl">
+                                <h3>3</h3>
+                                <h3>12</h3>
+                                <h3>2495</h3>
+                            </div>
+                            <div class="text-xl">
+                                <h3>$124317.31</h3>
+                                <h3>$80526.39</h3>
+                                <h3>$1029.57</h3>
+                            </div>
+                           
+
+                            
+                          </div> 
+                          <div class="flex justify-between mt-12">
+                            <h2 class="text-2xl">Total</h2>
+                            <h2 class="text-2xl">$205873.27</h2>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/test.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

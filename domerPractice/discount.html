@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center ">Welcome To My <br> <span class="font-semibold text-violet-600">Discount Converter Machine</span> <br> <span class="text-rose-500">!!!!!!!!!!!!!!!!!!!!!!</span></h1>
+    </header>
+    <main>
+        <section>
+            <div class="mt-14">
+                <h1 class="text-4xl text-center font-medium ">Type Your <span class="text-green-500">Bill</span></h1>
+            </div>
+            <div class="flex rounded-lg mx-auto mt-12 bg-yellow-400 p-8 w-2/5">
+                <h1 class="text-3xl mr-4">30% Discount:</h1>
+                <input id="text-field" class="px-5 rounded-lg py-2 text-xl" type="text" placeholder="Price">
+                <button id="btn-get" class="bg-rose-400 ml-4 px-5 py-2 rounded-lg hover:bg-rose-800 hover:text-white ">Get DISC</button>
+            </div>
+            <div class="mx-auto flex rounded-lg bg-violet-400 p-8 w-2/5">
+                <h1 class="text-3xl mr-4">Cupon for 40%</h1>
+                <input id="text-field-40%" class="px-5 rounded-lg py-2 text-xl" type="text" placeholder="Price">
+                <button id="btn-get-50%" class="bg-green-400 ml-4 px-5 py-2 rounded-lg hover:bg-green-800 hover:text-white ">Get DISC</button>
+            </div>
+            <div class="p-4 rounded-lg bg-rose-400 w-2/5 mx-auto">
+                <h1 class="text-3xl text-center">30% Discount Price: : <span id="paying-amount">00</span>TK</h1>
+            </div>
+            <div class="p-4 rounded-lg bg-purple-400 w-2/5 mx-auto">
+                <h1 id="alert-40" class="text-3xl text-center">40% Discount Price: : <span id="paying-amount-40">00</span>TK</h1>
+            </div>
+            
+        </section>
+    </main>
+
+   <script src="app.js"></script>
+</body>
+</html>
